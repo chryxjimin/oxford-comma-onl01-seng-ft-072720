@@ -5,10 +5,13 @@ elsif array.size == 2
   array.join (" and ")
 elsif array.size == 3
   #array.join(",")
-  new_array = array.join(", ")
+  #new_array = array.join(", ")
+  array.join(", ")
   #last_word = array.pop
-  new_array_2 = new_array.pop
-  new_array_2 << ", and #{new_array_2.last}"
+  new_array = array.join(", ")
+  #new_array_2 = new_array.pop
+  #new_array_2 << ", and #{new_array_2.last}"
+  new_array << new_array.pop << ", and #{new_array_2.last}"
   end
 end
 
