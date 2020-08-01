@@ -6,7 +6,8 @@ elsif array.size == 2
 elsif array.size == 3
   #array.join(",")
   new_array = array.join(", ")
-  last_word = array.pop
+  #last_word = array.pop
+  array.pop
   new_array << ", and #{array.last}"
   end
 end
