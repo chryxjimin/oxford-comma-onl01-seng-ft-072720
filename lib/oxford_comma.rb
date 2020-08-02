@@ -7,7 +7,7 @@ elsif array.size == 2
   binding.pry
 elsif array.size == 3
   #last_word = array[-1]
-  new_array = array[-1].join(", ")
+  new_array = array.join(", ")
   new_array << ", and #{new_array[-1]}"
   end
 end
