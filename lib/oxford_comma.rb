@@ -8,8 +8,8 @@ elsif array.size == 2
 elsif array.size == 3
   #last_word = array[-1]
   new_array = [array.pop]
-  array.join(", ")
-  array[2] << ", and #{array[-1]}"
+  new_array.join(", ")
+  new_array[2] << ", and #{array[-1]}"
   end
 end
 
