@@ -11,7 +11,7 @@ elsif array.size == 3
   new_array = array.join(", ")
   #new_array_2 = new_array.pop
   #new_array_2 << ", and #{new_array_2.last}"
-  new_array << new_array.pop << ", and #{new_array.last}"
+  new_array << "new_array.pop" << ", and #{new_array.last}"
   end
 end
 
