@@ -10,7 +10,6 @@ elsif array.size == 3
   last_word.join(", ")
   last_word << ", and #{array[-1]}"
   end
-end
 
 
   #else
