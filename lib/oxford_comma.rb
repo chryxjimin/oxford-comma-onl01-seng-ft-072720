@@ -6,10 +6,9 @@ elsif array.size == 2
   array.join (" and ")
   binding.pry
 elsif array.size == 3
-  last_word = array.pop
-  new array = last_word.join(", ")
+  #last_word = array[-1]
+  new_array = array[-1].join(", ")
   new_array << ", and #{new_array[-1]}"
-
   end
 end
 
