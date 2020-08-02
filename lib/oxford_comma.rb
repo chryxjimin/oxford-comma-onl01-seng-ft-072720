@@ -4,7 +4,7 @@ def oxford_comma(array)
   array.join
 elsif array.size == 2
   array.join (" and ")
-  #binding.pry
+  binding.pry
 elsif array.size == 3
   #last_word = array[-1]
   new_array = [array.pop]
